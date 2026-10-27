@@ -1,0 +1,23 @@
+columna,tipo_incidencia,n_filas_afectadas,accion
+dni,dato_personal,12750,Columna eliminada: cadena aleatoria sin valor para el modelado.
+nombre,dato_personal,12750,Columna eliminada: cadena aleatoria sin valor para el modelado.
+apellidos,dato_personal,12750,Columna eliminada: cadena aleatoria sin valor para el modelado.
+direccion,dato_personal,12750,Columna eliminada: cadena aleatoria sin valor para el modelado.
+telefono,dato_personal,12750,Columna eliminada: cadena aleatoria sin valor para el modelado.
+email,dato_personal,12750,Columna eliminada: cadena aleatoria sin valor para el modelado.
+num_historia_clinica,dato_personal,12750,Columna eliminada: cadena aleatoria sin valor para el modelado.
+id_paciente_proy,columna_sin_valor_predictivo,12750,"Usado como índice, fuera de las variables de entrada."
+usuario_alta_datos,columna_sin_valor_predictivo,12750,Columna eliminada: columna de gestión interna sin relación con los objetivos.
+fumador,categoria_inconsistente,3200,Unificadas las variantes si/SI/True/1.0 y no/NO/False/0.0 a 1/0.
+actividad_fisica,categoria_inconsistente,3200,Unificadas las variantes si/SI/True/1.0 y no/NO/False/0.0 a 1/0.
+consume_fruta,categoria_inconsistente,3200,Unificadas las variantes si/SI/True/1.0 y no/NO/False/0.0 a 1/0.
+dificultad_caminar,categoria_inconsistente,3200,Unificadas las variantes si/SI/True/1.0 y no/NO/False/0.0 a 1/0.
+imc,valor_ausente,397,Celda vacía convertida a NaN; se imputa dentro del pipeline de cada línea de trabajo.
+fumador,valor_ausente,376,Celda vacía convertida a NaN; se imputa dentro del pipeline de cada línea de trabajo.
+actividad_fisica,valor_ausente,376,Celda vacía convertida a NaN; se imputa dentro del pipeline de cada línea de trabajo.
+consume_fruta,valor_ausente,376,Celda vacía convertida a NaN; se imputa dentro del pipeline de cada línea de trabajo.
+salud_general,valor_ausente,267,Celda vacía convertida a NaN; se imputa dentro del pipeline de cada línea de trabajo.
+dias_salud_mental_mala,valor_ausente,397,Celda vacía convertida a NaN; se imputa dentro del pipeline de cada línea de trabajo.
+dificultad_caminar,valor_ausente,376,Celda vacía convertida a NaN; se imputa dentro del pipeline de cada línea de trabajo.
+nivel_ingresos,valor_ausente,657,Celda vacía convertida a NaN; se imputa dentro del pipeline de cada línea de trabajo.
+imc,atipico_extremo,514,Se mantienen por ser valores posibles; RobustScaler en modelos sensibles a la escala.
